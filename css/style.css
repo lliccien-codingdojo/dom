@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+h1 {
+    color: white;
+    margin-left: 10px;
+}
+
+.navegacion {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.color-fondo {
+
+    background-color: darkturquoise;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: darkgrey; */
+    padding: 10px;
+
+}
+
+
+
+.menu>li {
+    list-style: none;
+}
+
+.menu>li>a {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+}
